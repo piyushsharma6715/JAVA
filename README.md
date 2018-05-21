@@ -2,6 +2,8 @@
 
 A set of useful java programs for various important concepts.
 
->OVERRIDING
-
+>EXCEPTION HANDLING
 >Java Database Connectivity (JDBC)
+>INNER CLASS 
+>OVERRIDING
+>STATIC BLOCK
