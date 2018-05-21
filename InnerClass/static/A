@@ -1,0 +1,43 @@
+class A
+{
+	void fn1()
+	{
+		System.out.println("fn1 function");
+	}
+	static class B
+	{
+		public void fn2()
+		{
+			System.out.println("fn2 function");
+		}
+		public void fn3()
+		{
+			System.out.println("fn3 function");
+		}
+		public static void fn4()
+		{
+			System.out.println("fn4 function");
+		}
+	}
+	public static void main(String a[])
+	{
+		A ob1=new A();
+		ob1.fn1();
+		B ob2=new B();
+		ob2.fn2();
+		ob2.fn3();
+		B.fn4();
+	}
+}
+class C
+{
+	public static void main(String a[])
+	{
+		A ob1=new A();
+		ob1.fn1();
+		A.B ob2=new A.B();
+		ob2.fn2();
+		ob2.fn3();
+		A.B.fn4();
+	}
+}
