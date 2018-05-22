@@ -1,3 +1,6 @@
+
+// A Simple Java program that differentiate between a value according to the refrence type 
+
 class Parent
 {
 	int  num=10;
