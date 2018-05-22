@@ -5,6 +5,8 @@ A set of useful java programs for various important concepts.
 
 >Java Database Connectivity (JDBC)
 
+>INHERITANCE
+
 >INNER CLASS 
 
 >OVERRIDING
